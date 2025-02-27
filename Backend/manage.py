@@ -8,6 +8,8 @@ def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
     port = os.environ.get('PORT', '8002')
+    from django.core.management import execute_from_command_line
+    execute_from_command_line([sys.argv[0], "runserver", f"0.0.0.0:{port}"])
 
     from django.core.management import execute_from_command_line
     execute_from_command_line([sys.argv[0], "runserver", f"0.0.0.0:{port}"])
