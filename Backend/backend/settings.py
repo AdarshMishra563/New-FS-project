@@ -30,7 +30,8 @@ import os
 
 ALLOWED_HOSTS = [".onrender.com", "new-fs-project-20.onrender.com"]
 
-ALLOWED_HOSTS = ["new-fs-project-20.onrender.com"
+ALLOWED_HOSTS = ["new-fs-project-20.onrender.com"]
+ALLOWED_HOSTS = ["127.0.0.1"]
 
 ALLOWED_HOSTS = ['new-fs-project-20.onrender.com']
 ALLOWED_HOSTS = ["https://new-fs-project-20.onrender.com/api/challenges", "new-fs-project-20.onrender.com"]
